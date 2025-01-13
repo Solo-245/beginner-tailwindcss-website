@@ -66,6 +66,10 @@ font: cascadia code, fira code, -->
 
         <div class="relative">
 
+          <!-- purple bar to help with the hero section transition ===========================-->
+
+          <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+
           <div class="container mx-auto px-6 lg:px-0 py-24 text-center">
              
             <!-- heading -->
@@ -99,38 +103,43 @@ font: cascadia code, fira code, -->
         <!-- overview =============================================================-->
         <!-- ============================================================= -->
 
-        <div class="bg-purple-700 py-24">
-          
-          <div class="container mx-auto px-6 lg:px-0">
-           <h2 class="text-5xl bg-purple-700 text-purple-100 mb-10">Writing CSS is tough stuff!</h2>
+        <div class="relative bg-purple-700 pb-24 lg:pt-12">
 
-          <div class="flex space-x-16">
+
+          <!-- gray bar to help with the hero section transition ===========================-->
+          <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300"></div>
+          
+          <div class="relative container mx-auto px-6 lg:px-0">
+
+           <h2 class="text-3xl lg:text-5xl bg-purple-700 text-purple-100 mb-10">Writing CSS is tough stuff!</h2>
+
+          <div class="lg:flex space-x-16 space-y-8 lg:space-y-0">
 
             <!-- left column -->
-            <div class="w-2/3 bg-white p-16 shadow-2xl rounded text-gray-800 text-lg"> 
+            <div class="lg:w-4/5 bg-white p-12 lg:p-16 shadow-2xl rounded text-gray-800 text-lg leading-relaxed space-y-5"> 
 
-              <p class="mb-5">Tailwind CSS has transformed web development by introducing a utility-first approach. Instead of relying on predefined components, developers use utility classes to style elements directly in HTML. <strong>This method reduces the need for extensive custom CSS, enabling faster and more efficient design processes.</strong></p>
-              <p class="mb-5">One of the standout features of Tailwind CSS is its simplicity in creating responsive designs. The framework includes
-              built-in utilities for defining styles across various screen sizes. By using these responsive utilities, developers can
+              <p class="">Tailwind CSS has transformed web development by introducing a utility-first approach. Instead of relying on predefined components, developers use utility classes to style elements directly in HTML. <strong class="font-bold text-teal-500">This method reduces the need for extensive custom CSS, enabling faster and more efficient design processes.</strong></p>
+
+              <p class="">One of the standout features of Tailwind CSS is its simplicity in creating responsive designs. The<code class="inline-block text-xs px-1 rounded bd-gray-200 text-teal-700 font-mono"> framework </code> includes built-in utilities for defining styles across various screen sizes. By using these responsive utilities, developers can
               ensure their websites look great on any device, from smartphones to large desktop monitors.</p>
-              <p class="mb-5">Integrating Tailwind CSS with modern development tools is seamless. Whether you're working with frameworks like React,
-              Vue, or Angular, or using static site generators such as Gatsby or Next.js, Tailwind fits right into your workflow. Its
+
+              <p class="">Integrating <a href="http://tailwindcss.com" class="text-blue-500 hover:text-blue-800 hover:underline"> Tailwind CSS </a> with modern development tools is seamless. Whether you're working with frameworks like <strong>React,
+              Vue, or Angular, or using static site generators such as Gatsby or Next.js </strong>, Tailwind fits right into your workflow. Its
               JIT mode optimizes performance by generating only the necessary styles, keeping your CSS file size minimal.</p>
-              <p class="mb-5 italic">Tailwind CSS's extensive documentation and active community support make it accessible to both beginners and experienced
-              developers. The well-organized documentation provides clear examples and guides, helping you quickly get up to speed
-              with the framework. The community is always ready to assist with any questions or challenges you might encounter.</p>
-              <p class="mb-5">Tailwind CSS empowers developers to build modern, responsive web designs efficiently. By adopting this utility-first
-              framework, you enhance your development process, streamline workflows, and deliver high-quality projects. Tailwind CSS
-              is a valuable tool for any developer looking to create visually appealing and responsive websites with ease.</p>
+
+              <p class=" text-3xl italic relative"> <span class="absolute top-0 left-0 text-6xl  transform -translate-x-6 -translate-y-6 scale-150 text-purple-600 opacity-50 ">"</span>  Tailwind CSS's extensive documentation and active community support make it accessible to both beginners and experienced developers. encounter.</p>
+
+              <p class="">Tailwind CSS empowers developers to build modern, responsive web designs efficiently. By adopting this utility-first
+              framework, you enhance your development process, streamline workflows, and deliver high-quality projects.</p>
             </div>
 
             <!-- right column -->
-            <div class="flex-grow text-lg space-y-4 italic">
+            <div class="flex-grow text-lg space-y-4 lg:space-y-8 italic">
               <div class="p-10 rounded-lg bg-purple-800 text-purple-200">What classes should i use?</div>
               <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do i make things look good?</div>
               <div class="p-10 rounded-lg bg-purple-800 text-purple-200">My design looks basic?</div>
-              <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do i do responsive></div>
-              <div class="p-10 rounded-lg bg-purple-800 text-purple-200">Why does my typographt look so bad?</div>
+              <div class="p-10 rounded-lg bg-purple-800 text-purple-200">How do i do responsive?</div>
+              <div class="p-10 rounded-lg bg-purple-800 text-purple-200">Why does my typography look so bad?</div>
             </div>
 
           </div>
